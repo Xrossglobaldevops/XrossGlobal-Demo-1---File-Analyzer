@@ -12,3 +12,10 @@ google-generativeai
 google-ai-generativelanguage
 google-generativeai
 google-ai-generativelanguage
+<<<<<<< HEAD
+setuptools
+setuptools
+setuptools
+setuptools
+=======
+>>>>>>> 7622c12e0b41001102352edcc5aeb06c7cf36a6c
