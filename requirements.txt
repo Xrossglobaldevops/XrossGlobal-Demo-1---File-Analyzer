@@ -10,9 +10,4 @@ streamlit==1.28.1
 streamlit_authenticator==0.3.3
 google-generativeai
 google-ai-generativelanguage
-google-generativeai
-google-ai-generativelanguage
-setuptools
-setuptools
-setuptools
-setuptools
+setuptoolssetuptools
