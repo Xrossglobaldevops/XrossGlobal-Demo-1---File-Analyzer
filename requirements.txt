@@ -12,3 +12,4 @@ google-generativeai
 google-ai-generativelanguage
 google-generativeai
 google-ai-generativelanguage
+setuptools
