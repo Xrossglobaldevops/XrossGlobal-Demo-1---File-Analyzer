@@ -13,12 +13,18 @@ import PyPDF2
 import pptx
 import openai  # Import the OpenAI library
 
-# Load the API key from .env file
+# Load the .env file
 load_dotenv()
-openai.api_key = os.getenv('OPENAI_API_KEY')
+
+# Access the API keys
+google_api_key = os.getenv('GOOGLE_API_KEY')
+openai_api_key = os.getenv('OPENAI_API_KEY')
+
+# Set API keys in the respective libraries
+openai.api_key = openai_api_key
 
 # Ensure the Google API key is set for Generative AI if needed
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key=google_api_key)
 
 st.set_page_config(page_title="XrossGlobal Financial - File Analysis", page_icon="📸", layout="centered", initial_sidebar_state='collapsed')
 col1, col2, col3 = st.columns([1,2,1])
